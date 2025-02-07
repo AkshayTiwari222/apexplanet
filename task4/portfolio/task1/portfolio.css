@@ -1,0 +1,128 @@
+
+body {
+   h1{
+    text-align: center;
+   }
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+.skills, .project1, .project2, .resume, .contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+h1, h2, h3 {
+    color: #333;
+}
+
+
+progress {
+    width: 100%;
+    height: 20px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #0074d9;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+a {
+    color: #0074d9;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .skills, .project1, .project2, .resume, .contact {
+        padding: 10px;
+    }
+}
+
+ .project1{
+    h1{
+        color: #f0f0f0;
+    }
+    h3{
+        color: #f0f0f0;
+    }
+    background-image: url(bgimage2.jpg);
+    background-size: cover; 
+ }
+ .project2{
+    h1{
+        color: #f0f0f0;
+    }
+    h3{
+        color: #f0f0f0;
+    }
+    background-image: url(bgimage2.jpg);
+    background-size: cover; 
+ }
+ .resume{
+    h1{
+        color: #f0f0f0;
+    }
+   
+    background-image: url(resume.jpg);
+    background-size: cover; 
+ }
+ .contact{
+    h1{
+        color: #f0f0f0;
+    }
+    h3{
+        color: #f0f0f0;
+    }
+    background-image: url(contact2.jpg);
+    
+    background-size:cover;
+ }
+ .skills{
+    background-image: url(skilss.jpg);
+    
+    background-size:cover;
+
+ }
+ .name{
+    h1{
+        padding-top: 10%;
+        text-align: center;
+    }
+    
+    height: 140px; 
+    
+    background-image: url(naam.jpg);
+    
+    background-size:cover;
+  
+
+
+ }
+ 
+ 
+
+
+      
+    
+   
+
